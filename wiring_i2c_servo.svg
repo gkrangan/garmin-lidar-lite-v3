@@ -1,0 +1,235 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="560" viewBox="0 0 1060 560" font-family="Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1060" height="560" fill="#f0f0eb"/>
+  <text x="530" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#222">LIDAR-Lite v3 + Servo Sweep — I²C Wiring (SparkFun RedBoard)</text>
+
+  <!-- ══════════════════ LIDAR-LITE v3 ══════════════════ -->
+  <rect x="25"  y="75"  width="175" height="310" rx="10" fill="#1a3f80" stroke="#0d2550" stroke-width="2.5"/>
+  <text x="112" y="100" text-anchor="middle" font-size="13" font-weight="bold" fill="white">LIDAR-Lite v3</text>
+  <text x="112" y="115" text-anchor="middle" font-size="10" fill="#90b0ff">Garmin</text>
+  <!-- Lens -->
+  <circle cx="112" cy="215" r="42" fill="#0a1830" stroke="#2060b0" stroke-width="2"/>
+  <circle cx="112" cy="215" r="30" fill="#050f20" stroke="#1040a0" stroke-width="1.5"/>
+  <circle cx="99"  cy="215" r="9"  fill="#081828" stroke="#2060a0" stroke-width="1"/>
+  <circle cx="125" cy="215" r="9"  fill="#081828" stroke="#2060a0" stroke-width="1"/>
+
+  <!-- Connector block -->
+  <rect x="188" y="115" width="18" height="240" rx="4" fill="#b08800" stroke="#806000" stroke-width="1.5"/>
+
+  <!-- Pin pads -->
+  <circle cx="206" cy="140" r="6" fill="#ffd700" stroke="#b08800" stroke-width="1.5"/><!-- 5V      -->
+  <circle cx="206" cy="173" r="6" fill="#ffd700" stroke="#b08800" stroke-width="1.5"/><!-- PWR EN -->
+  <circle cx="206" cy="206" r="6" fill="#ffd700" stroke="#b08800" stroke-width="1.5"/><!-- MODE   -->
+  <circle cx="206" cy="239" r="6" fill="#ffd700" stroke="#b08800" stroke-width="1.5"/><!-- SCL    -->
+  <circle cx="206" cy="272" r="6" fill="#ffd700" stroke="#b08800" stroke-width="1.5"/><!-- SDA    -->
+  <circle cx="206" cy="305" r="6" fill="#ffd700" stroke="#b08800" stroke-width="1.5"/><!-- GND    -->
+
+  <!-- Pin labels -->
+  <text x="183" y="144" text-anchor="end" font-size="11" fill="#c0d8ff">5V</text>
+  <text x="183" y="177" text-anchor="end" font-size="11" fill="#c0d8ff">PWR EN</text>
+  <text x="183" y="210" text-anchor="end" font-size="11" fill="#c0d8ff">MODE</text>
+  <text x="183" y="243" text-anchor="end" font-size="11" fill="#c0d8ff">SCL</text>
+  <text x="183" y="276" text-anchor="end" font-size="11" fill="#c0d8ff">SDA</text>
+  <text x="183" y="309" text-anchor="end" font-size="11" fill="#c0d8ff">GND</text>
+
+  <!-- ══════════════════ REDBOARD / ARDUINO ══════════════════ -->
+  <rect x="415" y="55"  width="230" height="430" rx="10" fill="#c00000" stroke="#800000" stroke-width="2.5"/>
+  <text x="530" y="80"  text-anchor="middle" font-size="14" font-weight="bold" fill="white">SparkFun RedBoard</text>
+  <text x="530" y="96"  text-anchor="middle" font-size="10" fill="#ffaaaa">(Arduino Uno compatible)</text>
+  <!-- USB -->
+  <rect x="415" y="215" width="22" height="55" rx="3" fill="#999" stroke="#555" stroke-width="1.5"/>
+  <text x="426" y="268" text-anchor="middle" font-size="8" fill="white" transform="rotate(-90,426,243)">USB</text>
+  <!-- Chip -->
+  <rect x="478" y="220" width="75" height="50" rx="4" fill="#1a1a1a" stroke="#444" stroke-width="1.5"/>
+  <text x="515" y="249" text-anchor="middle" font-size="9" fill="#bbb">ATmega328P</text>
+
+  <!-- Left pin header strip -->
+  <rect x="436" y="110" width="14" height="200" rx="3" fill="#222" stroke="#111" stroke-width="1"/>
+
+  <!-- Left pads -->
+  <circle cx="436" cy="140" r="6" fill="#ffd700" stroke="#b08800" stroke-width="1.5"/><!-- 5V     -->
+  <circle cx="436" cy="173" r="6" fill="#ffd700" stroke="#b08800" stroke-width="1.5"/><!-- GND    -->
+  <circle cx="436" cy="240" r="6" fill="#ffd700" stroke="#b08800" stroke-width="1.5"/><!-- SCL/A5 -->
+  <circle cx="436" cy="273" r="6" fill="#ffd700" stroke="#b08800" stroke-width="1.5"/><!-- SDA/A4 -->
+
+  <!-- Left pin labels -->
+  <text x="456" y="144" font-size="11" fill="white">5V</text>
+  <text x="456" y="177" font-size="11" fill="white">GND</text>
+  <text x="456" y="244" font-size="11" fill="white">SCL (A5)</text>
+  <text x="456" y="277" font-size="11" fill="white">SDA (A4)</text>
+
+  <!-- Right pin header strip -->
+  <rect x="645" y="110" width="14" height="310" rx="3" fill="#222" stroke="#111" stroke-width="1"/>
+
+  <!-- Right pads -->
+  <circle cx="659" cy="140" r="6" fill="#ffd700" stroke="#b08800" stroke-width="1.5"/><!-- 5V  -->
+  <circle cx="659" cy="173" r="6" fill="#ffd700" stroke="#b08800" stroke-width="1.5"/><!-- GND -->
+  <circle cx="659" cy="390" r="6" fill="#ffd700" stroke="#b08800" stroke-width="1.5"/><!-- D9  -->
+
+  <!-- Right pin labels -->
+  <text x="638" y="144" text-anchor="end" font-size="11" fill="white">5V</text>
+  <text x="638" y="177" text-anchor="end" font-size="11" fill="white">GND</text>
+  <text x="638" y="394" text-anchor="end" font-size="11" fill="white">D9</text>
+
+  <!-- ══════════════════ SERVO MOTOR ══════════════════ -->
+  <rect x="830" y="90"  width="190" height="195" rx="10" fill="#3a3a3a" stroke="#111" stroke-width="2.5"/>
+  <text x="925" y="114" text-anchor="middle" font-size="13" font-weight="bold" fill="white">Servo Motor</text>
+  <text x="925" y="130" text-anchor="middle" font-size="10" fill="#aaa">SG90 / MG995 etc.</text>
+  <!-- Servo body detail -->
+  <rect x="855" y="140" width="110" height="80" rx="5" fill="#555" stroke="#333" stroke-width="1"/>
+  <circle cx="910" cy="180" r="22" fill="#888" stroke="#333" stroke-width="2"/>
+  <circle cx="910" cy="180" r="12" fill="#aaa" stroke="#666" stroke-width="1.5"/>
+  <circle cx="910" cy="180" r="4"  fill="#333"/>
+  <!-- Mounting tabs -->
+  <rect x="843" y="155" width="14" height="50" rx="3" fill="#444" stroke="#222" stroke-width="1"/>
+  <rect x="963" y="155" width="14" height="50" rx="3" fill="#444" stroke="#222" stroke-width="1"/>
+
+  <!-- Servo wire connector -->
+  <rect x="846" y="248" width="14" height="70" rx="3" fill="#222" stroke="#111" stroke-width="1"/>
+  <!-- Servo pads -->
+  <circle cx="846" cy="265" r="6" fill="#ffd700" stroke="#b08800" stroke-width="1.5"/><!-- Signal -->
+  <circle cx="846" cy="293" r="6" fill="#ffd700" stroke="#b08800" stroke-width="1.5"/><!-- VCC    -->
+  <circle cx="846" cy="321" r="6" fill="#ffd700" stroke="#b08800" stroke-width="1.5"/><!-- GND    -->
+  <!-- Servo pin labels -->
+  <text x="868" y="269" font-size="11" fill="#eee">Signal</text>
+  <text x="868" y="297" font-size="11" fill="#eee">VCC</text>
+  <text x="868" y="325" font-size="11" fill="#eee">GND</text>
+
+  <!-- ══════════════════ BREADBOARD (simplified) ══════════════════ -->
+  <rect x="258" y="130" width="140" height="260" rx="6" fill="#d8d0c0" stroke="#bbb" stroke-width="1.5"/>
+  <text x="328" y="150" text-anchor="middle" font-size="11" fill="#555">Breadboard</text>
+
+  <!-- Resistor symbol on breadboard (4.7kΩ pull-up) -->
+  <rect x="295" y="165" width="14" height="35" rx="3" fill="#e0c070" stroke="#a08040" stroke-width="1.5"/>
+  <line x1="302" y1="158" x2="302" y2="165" stroke="#cc0000" stroke-width="2"/>
+  <line x1="302" y1="200" x2="302" y2="265" stroke="#c8a000" stroke-width="2"/>
+  <text x="315" y="185" font-size="10" fill="#555">4.7kΩ</text>
+
+  <!-- Cap symbol on breadboard (680µF) -->
+  <line x1="355" y1="140" x2="355" y2="162" stroke="#cc0000" stroke-width="2"/>
+  <line x1="340" y1="162" x2="370" y2="162" stroke="#333" stroke-width="3.5"/>
+  <line x1="340" y1="172" x2="370" y2="172" stroke="#333" stroke-width="3.5"/>
+  <line x1="355" y1="172" x2="355" y2="185" stroke="#222" stroke-width="2"/>
+  <text x="375" y="163" font-size="10" fill="#cc0000" font-weight="bold">+</text>
+  <text x="375" y="175" font-size="9"  fill="#555">680µF</text>
+
+  <!-- ══════════════════ WIRES ══════════════════ -->
+
+  <!-- 5V (red): LIDAR → breadboard → Arduino left 5V -->
+  <polyline points="212,140 302,140 356,140 436,140"
+            fill="none" stroke="#cc0000" stroke-width="3"
+            stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Dots at breadboard junctions -->
+  <circle cx="302" cy="140" r="4" fill="#cc0000"/>
+  <circle cx="356" cy="140" r="4" fill="#cc0000"/>
+
+  <!-- PWR EN (red dashed): LIDAR PWR EN → 5V rail (short) -->
+  <polyline points="212,173 250,173 250,140"
+            fill="none" stroke="#cc0000" stroke-width="2.5"
+            stroke-dasharray="6,3"
+            stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="250" cy="140" r="4" fill="#cc0000"/>
+  <text x="228" y="168" font-size="9" fill="#cc0000">PWR EN→5V</text>
+
+  <!-- MODE (orange dashed): LIDAR MODE → 5V rail -->
+  <polyline points="212,206 240,206 240,140"
+            fill="none" stroke="#e06000" stroke-width="2.5"
+            stroke-dasharray="6,3"
+            stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="240" cy="140" r="4" fill="#e06000"/>
+  <text x="216" y="222" font-size="9" fill="#e06000">MODE→5V</text>
+
+  <!-- SCL (yellow): LIDAR SCL → breadboard (through resistor) → Arduino SCL -->
+  <polyline points="212,239 302,239 302,200"
+            fill="none" stroke="#c8a000" stroke-width="3"
+            stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="302,165 302,140"
+            fill="none" stroke="#cc0000" stroke-width="2" stroke-dasharray="none"/>
+  <!-- SCL continues from resistor bottom to Arduino -->
+  <polyline points="302,200 302,265 436,265 436,240"
+            fill="none" stroke="#c8a000" stroke-width="3"
+            stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="302" cy="239" r="4" fill="#c8a000"/>
+
+  <!-- SDA (blue): LIDAR SDA → Arduino SDA -->
+  <polyline points="212,272 390,272 436,273"
+            fill="none" stroke="#0060cc" stroke-width="3"
+            stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- GND (black): LIDAR GND → breadboard → Arduino GND -->
+  <polyline points="212,305 328,305 328,185 355,185 436,173"
+            fill="none" stroke="#222" stroke-width="3"
+            stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="355" cy="185" r="4" fill="#222"/>
+  <!-- Cap bottom joins GND at breadboard -->
+  <line x1="355" y1="172" x2="355" y2="185" stroke="#222" stroke-width="2"/>
+
+  <!-- Arduino 5V right → Servo VCC -->
+  <polyline points="659,140 750,140 750,293 846,293"
+            fill="none" stroke="#cc0000" stroke-width="3"
+            stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Arduino GND right → Servo GND -->
+  <polyline points="659,173 760,173 760,321 846,321"
+            fill="none" stroke="#222" stroke-width="3"
+            stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Arduino D9 → Servo Signal (orange) -->
+  <polyline points="659,390 720,390 720,265 846,265"
+            fill="none" stroke="#e06000" stroke-width="3"
+            stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- D9 label on wire -->
+  <rect x="672" y="376" width="42" height="16" rx="3" fill="white" opacity="0.85"/>
+  <text x="693" y="388" text-anchor="middle" font-size="10" fill="#e06000" font-weight="bold">D9 →</text>
+
+  <!-- ══════════════════ NOTES ══════════════════ -->
+  <!-- Servo power note -->
+  <rect x="780" y="430" width="255" height="60" rx="6" fill="#fff8e0" stroke="#c8a000" stroke-width="1.5"/>
+  <text x="907" y="448" text-anchor="middle" font-size="11" font-weight="bold" fill="#a06000">⚠ Servo Power</text>
+  <text x="907" y="463" text-anchor="middle" font-size="10" fill="#555">If servo stalls or resets occur,</text>
+  <text x="907" y="477" text-anchor="middle" font-size="10" fill="#555">use an external 5V supply for servo.</text>
+
+  <!-- ══════════════════ LEGEND ══════════════════ -->
+  <rect x="25" y="420" width="740" height="120" rx="8" fill="white" stroke="#ccc" stroke-width="1.5" opacity="0.92"/>
+  <text x="44" y="440" font-size="12" font-weight="bold" fill="#333">Legend</text>
+
+  <!-- Red -->
+  <line x1="95" y1="458" x2="135" y2="458" stroke="#cc0000" stroke-width="3"/>
+  <circle cx="95"  cy="458" r="3" fill="#cc0000"/>
+  <circle cx="135" cy="458" r="3" fill="#cc0000"/>
+  <text x="140" y="462" font-size="11" fill="#333">5V power</text>
+
+  <!-- Black -->
+  <line x1="95" y1="480" x2="135" y2="480" stroke="#222" stroke-width="3"/>
+  <circle cx="95"  cy="480" r="3" fill="#222"/>
+  <circle cx="135" cy="480" r="3" fill="#222"/>
+  <text x="140" y="484" font-size="11" fill="#333">GND</text>
+
+  <!-- Yellow -->
+  <line x1="95" y1="502" x2="135" y2="502" stroke="#c8a000" stroke-width="3"/>
+  <circle cx="95"  cy="502" r="3" fill="#c8a000"/>
+  <circle cx="135" cy="502" r="3" fill="#c8a000"/>
+  <text x="140" y="506" font-size="11" fill="#333">SCL (through 4.7kΩ pull-up to 5V)</text>
+
+  <!-- Blue -->
+  <line x1="95" y1="524" x2="135" y2="524" stroke="#0060cc" stroke-width="3"/>
+  <circle cx="95"  cy="524" r="3" fill="#0060cc"/>
+  <circle cx="135" cy="524" r="3" fill="#0060cc"/>
+  <text x="140" y="528" font-size="11" fill="#333">SDA</text>
+
+  <!-- Orange solid -->
+  <line x1="330" y1="458" x2="370" y2="458" stroke="#e06000" stroke-width="3"/>
+  <circle cx="330" cy="458" r="3" fill="#e06000"/>
+  <circle cx="370" cy="458" r="3" fill="#e06000"/>
+  <text x="375" y="462" font-size="11" fill="#333">Servo signal → D9</text>
+
+  <!-- Orange dashed -->
+  <line x1="330" y1="480" x2="370" y2="480" stroke="#e06000" stroke-width="2.5" stroke-dasharray="6,4"/>
+  <text x="375" y="484" font-size="11" fill="#777">MODE / PWR EN → 5V rail (tie high for I²C)</text>
+
+  <!-- Cap note -->
+  <text x="330" y="506" font-size="11" fill="#555">⊣⊢  680µF cap: + to 5V, − to GND  (on breadboard, close to sensor)</text>
+  <text x="330" y="528" font-size="11" fill="#555">▭   4.7kΩ resistor: between 5V rail and SCL line  (on breadboard)</text>
+
+</svg>
